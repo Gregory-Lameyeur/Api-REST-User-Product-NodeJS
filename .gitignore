@@ -1,11 +1,12 @@
 .DS_Store
 .log
-build/
+node_modules/
 
 ## Environnement
 .env
 secrets/.prod
 secrets/*.dev
+node_modules
 .env
 
 
