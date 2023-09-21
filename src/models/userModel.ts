@@ -26,4 +26,5 @@ const UserSchema = new Schema<IUser>({
 });
 
 const User = connectionDB.mongo.model('user', UserSchema, 'user');
+
 export default User;
